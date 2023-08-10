@@ -40,7 +40,7 @@ jobs:
       - name: Build Ghidra-Cpp-Class-Analyzer
         uses: eskatos/gradle-command-action@v2
         with:
-          gradle-version: 6.9
+          gradle-version: 7.3
           build-root-directory: Ghidra-Cpp-Class-Analyzer
           arguments: buildExtension -PGHIDRA_INSTALL_DIR=${{ env.GHIDRA_INSTALL_DIR }}
 
